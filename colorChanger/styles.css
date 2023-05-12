@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.content{
+    margin-top: 20%;
+    text-align: center;
+    align-items: center;
+
+}
+
+.content button{
+    text-decoration: none;
+    outline: none;
+    background:aquamarine;
+    border: 1px solid aqua;
+    padding: 10px 15px;
+    margin: 20px ;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+
+.content button:hover{
+    background: aliceblue;
+    border-radius: 20px;
+}
