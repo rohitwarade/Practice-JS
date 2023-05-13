@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+}
+
+.container h1{
+    margin: 90px 0;
+}
+
+.container h2{
+    margin-top: 150px;
+}
+
+.container button{
+    margin: 50px 20px;
+    padding: 10px 20px;
+    background: violet;
+    border: 1px solid purple;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.container button:hover{
+    background: aliceblue;
+    color: violet;
+    border: 1px solid violet;
+}
+
