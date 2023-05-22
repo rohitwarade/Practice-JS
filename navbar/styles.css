@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("imgs/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background:aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-size: 30px;
+    margin: 17px 50px;
+}
+
+.nav-bar ul{
+    list-style: none;
+    padding: 24px 50px;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+
+ .nav-bar ul li a:hover{
+    color: brown;
+}
